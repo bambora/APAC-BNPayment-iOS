@@ -2,15 +2,7 @@
 #import "VisaCheckoutLaunchParams.h"
 #import "BNBundleUtils.h"
 #import <WebKit/WebKit.h>
-@protocol VisaCheckOutButtonDelegate <NSObject>
-
--(void)VisaCheckoutSuccess:(NSDictionary *)VisaCheckoutPayment;
-
--(void)VisaCheckoutFail:(NSString *)info;
-
--(void)VisaCheckoutSetupComplete;
-
-@end
+#import "VisaCheckoutButtonDelegate.h"
 
 @interface VisaCheckOutButton : WKWebView
 
