@@ -149,6 +149,7 @@
 		5DA20CA41CFC4AD9007B2361 /* validCACert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DA20C9D1CFC4AD9007B2361 /* validCACert.cer */; };
 		5DA20CA51CFC4AD9007B2361 /* validExpiredSelfSignedCert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DA20C9E1CFC4AD9007B2361 /* validExpiredSelfSignedCert.cer */; };
 		5DA20CA61CFC4AD9007B2361 /* validSelfSignedCert.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DA20C9F1CFC4AD9007B2361 /* validSelfSignedCert.cer */; };
+		622367342270830000BD7D54 /* VisaCheckoutButtonDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 62236732227082B100BD7D54 /* VisaCheckoutButtonDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		747B4A441E9DDB0D00B0FB24 /* BNApplePayPaymentEndpoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 747B4A421E9DDB0D00B0FB24 /* BNApplePayPaymentEndpoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		747B4A451E9DDB0D00B0FB24 /* BNApplePayPaymentEndpoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 747B4A431E9DDB0D00B0FB24 /* BNApplePayPaymentEndpoint.m */; };
 		74C27B7B1E9DDD25006DFC37 /* PassKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74C27B7A1E9DDD25006DFC37 /* PassKit.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
@@ -428,6 +429,7 @@
 		5DAABEF91CB69B0200CEDB91 /* BNPayment.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BNPayment.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAABF031CB69B0200CEDB91 /* BNPaymentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BNPaymentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DAABF5B1CB69C7F00CEDB91 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = Framework/Info.plist; sourceTree = "<group>"; };
+		62236732227082B100BD7D54 /* VisaCheckoutButtonDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VisaCheckoutButtonDelegate.h; sourceTree = "<group>"; };
 		747B4A421E9DDB0D00B0FB24 /* BNApplePayPaymentEndpoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNApplePayPaymentEndpoint.h; sourceTree = "<group>"; };
 		747B4A431E9DDB0D00B0FB24 /* BNApplePayPaymentEndpoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNApplePayPaymentEndpoint.m; sourceTree = "<group>"; };
 		74C27B7A1E9DDD25006DFC37 /* PassKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PassKit.framework; path = System/Library/Frameworks/PassKit.framework; sourceTree = SDKROOT; };
@@ -963,6 +965,7 @@
 				5D9021371D2149DA00B4BEAC /* BNLoaderButton.m */,
 				EA58E6561ED3C7E6003BA174 /* BNSwitchButton.h */,
 				EA58E6581ED3C814003BA174 /* BNSwitchButton.m */,
+				62236732227082B100BD7D54 /* VisaCheckoutButtonDelegate.h */,
 			);
 			name = Buttons;
 			sourceTree = "<group>";
@@ -1149,6 +1152,7 @@
 				95BACCE12002075E007F02B9 /* VisaCheckoutEndpoint.h in Headers */,
 				5D69A5F41CE0D00200A573EE /* UIView+BNUtils.h in Headers */,
 				9721608D2002D35C00644B6F /* VisaCheckoutResponse.h in Headers */,
+				622367342270830000BD7D54 /* VisaCheckoutButtonDelegate.h in Headers */,
 				95BACCE72002BFFD007F02B9 /* VisaCheckoutTransactionParams.h in Headers */,
 				EA5A1A6C1F565E920014012E /* BNCardRegistrationGuiSetting.h in Headers */,
 				EA5A1A701F579FCF0014012E /* BNSubmitSinglePaymentCardGuiSetting.h in Headers */,
@@ -1221,6 +1225,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 5DAABEEF1CB69B0200CEDB91;
