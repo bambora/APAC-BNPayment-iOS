@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B7CB1BE24EA18B400313215 /* release.yml in Resources */ = {isa = PBXBuildFile; fileRef = 1B7CB1BC24EA18B400313215 /* release.yml */; };
 		5D258C7E1D3522B200498DEC /* NSError+BNError.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D258C7C1D3522B200498DEC /* NSError+BNError.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5D258C7F1D3522B200498DEC /* NSError+BNError.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D258C7D1D3522B200498DEC /* NSError+BNError.m */; };
 		5D258C821D35349A00498DEC /* BNErrorResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D258C801D35349A00498DEC /* BNErrorResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -274,6 +275,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1B7CB1BC24EA18B400313215 /* release.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.yaml; path = release.yml; sourceTree = "<group>"; };
 		5D258C7C1D3522B200498DEC /* NSError+BNError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSError+BNError.h"; sourceTree = "<group>"; };
 		5D258C7D1D3522B200498DEC /* NSError+BNError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSError+BNError.m"; sourceTree = "<group>"; };
 		5D258C801D35349A00498DEC /* BNErrorResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNErrorResponse.h; sourceTree = "<group>"; };
@@ -555,6 +557,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B7CB1BA24EA18B400313215 /* .github */ = {
+			isa = PBXGroup;
+			children = (
+				1B7CB1BB24EA18B400313215 /* workflows */,
+			);
+			path = .github;
+			sourceTree = "<group>";
+		};
+		1B7CB1BB24EA18B400313215 /* workflows */ = {
+			isa = PBXGroup;
+			children = (
+				1B7CB1BC24EA18B400313215 /* release.yml */,
+			);
+			path = workflows;
+			sourceTree = "<group>";
+		};
 		5D69A5431CE0D00200A573EE /* BNPayment */ = {
 			isa = PBXGroup;
 			children = (
@@ -986,6 +1004,7 @@
 			isa = PBXGroup;
 			children = (
 				F8FD69171E92F86700121C68 /* TODO */,
+				1B7CB1BA24EA18B400313215 /* .github */,
 				97C1C58A20476A61000D4C87 /* CardIO */,
 				5D69A5431CE0D00200A573EE /* BNPayment */,
 				5D69A6541CE0D43B00A573EE /* BNPaymentTests */,
@@ -1256,6 +1275,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8FC3884F1D5C636800170637 /* AmexLogo@2x.png in Resources */,
+				1B7CB1BE24EA18B400313215 /* release.yml in Resources */,
 				5D69A6131CE0D28D00A573EE /* GlobalSign.old.cer in Resources */,
 				5DA20C4C1CF49AD4007B2361 /* MasterCardLogo@2x.png in Resources */,
 				5D8007301CB7D99C00E29149 /* BNCCHostedRegistrationFormVC.xib in Resources */,
