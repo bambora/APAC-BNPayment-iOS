@@ -43,3 +43,10 @@ profile
 
 # Pods - for those of you who use CocoaPods
 Pods
+fastlane/report.xml
+fastlane/test_output/
+
+# Client secrets
+MerchantID.txt
+paymentData.json
+registrationData.json
